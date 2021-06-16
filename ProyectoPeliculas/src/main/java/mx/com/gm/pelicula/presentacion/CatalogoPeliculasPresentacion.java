@@ -10,7 +10,7 @@ public class CatalogoPeliculasPresentacion {
         var opcion = -1;
         var scanner = new Scanner(System.in);
         CatalogoPeliculas catalogo = new CatalogoPeliculasImpl();
- 
+
         while(opcion != 0){
             System.out.println("Elige una opcion: \n" +
                     "1. Iniciar Catalogo peliculas \n" +

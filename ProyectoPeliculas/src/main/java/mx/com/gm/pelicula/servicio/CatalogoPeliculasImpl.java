@@ -33,7 +33,7 @@ public class CatalogoPeliculasImpl implements CatalogoPeliculas{
         try{
             var peliculas = this.datos.listar(NOMBRE_RECURSO);
             for (var pelicula: peliculas) {
-                System.out.println("pelicula = " + pelicula);
+                System.out.println("pelicula: " + pelicula);
             }
         }catch (AccesoDatosEx ex){
             System.out.println("Error Acceso a Datos");
